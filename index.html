@@ -6,84 +6,97 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Página principal</title>
     <link rel="icon" type="image/z-icon" href="Fotos/favicom.jpg">
-<style>
-    a{
-        text-decoration: none;
-        font-size: 24px;
-        margin-left :110px;
-        color:white ;
+    <style>
+        a {
+            text-decoration: none;
+            font-size: 24px;
+            margin-left: 110px;
+            color: white;
 
-    }
-    img{
-        float: left;
-    }
-</style>
+        }
+
+        img {
+            float: left;
+        }
+
+        fieldset {
+            color: white;
+            padding: 10px;
+            background-color: black;
+        }
+        header{
+            color: white;
+            text-align: center;
+            height: 90px;
+            background-color: black;
+        }
+    </style>
 </head>
 
 
 <body style="background-color:brown;">
 
-    <div style="color: white;">
-        <header style="background-color: brown;height: 200px;">
-            <h1 style="text-align: center;">TOMOCION</h1>
-
-            <fieldset>
-                <legend>Tipo de coche y caracteristícas</legend>
-                <form>
-                    <label for="Tipo">Tipos de coche</label>
-                    <select name="Tipos" id="Tipos">
-                        <option value="coúpe">Coúpe</option>
-                        <option value="sedán">Sedán</option>
-                        <option value="suv">SUV</option>
-                        <option value="monovolumen">Monovolumen</option>
-                    </select>
-                    <label for="Marca">Marca</label>
-                    <select name="Marca" id="Marca">
-                        <option value="audi">Audi</option>
-                        <option value="mercedes">Mercedes</option>
-                        <option value="opel">Opel</option>
-                        <option value="peugeot">Peugeot</option>
-                        <option value="toyota">Toyota</option>
-                        <option value="fiat">Fiat</option>
-                        <option value="citroën">Opel</option>
-                        <option value="mg">MG</option>
-                    </select>
-
-                    <label for="kilometraje">Kilometraje</label>
-                    <select name="kilometraje" id="kilometraje">
-                        <option value="0km">0 km </option>
-                        <option value="1.000 - 30.000 km">1.000-30.000 km</option>
-                        <option value="+30.000km">+30.000km</option>
-                    </select>
-
-                    <label for="caballos">Caballaje</label>
-                    <select id="caballos" name="caballos" size="2" multiple>
-                        <option value="70cv">70 CV</option>
-                        <option value="100cv">100 CV</option>
-                        <option value="150cv">150 CV</option>
-                        <option value="150cv">+150 CV</option>
-                    </select>
-
+    
+        <header>
+            <h1>TOMOCION</h1>
         </header>
 
+    
 
+    <section>
+        <fieldset>
+            <legend>Tipo de coche y caracteristícas</legend>
+            <form>
+                <label for="Tipo">Tipos de coche</label>
+                <select name="Tipos" id="Tipos">
+                    <option value="coúpe">Coúpe</option>
+                    <option value="sedán">Sedán</option>
+                    <option value="suv">SUV</option>
+                    <option value="monovolumen">Monovolumen</option>
+                </select>
+                <label for="Marca">Marca</label>
+                <select name="Marca" id="Marca">
+                    <option value="audi">Audi</option>
+                    <option value="mercedes">Mercedes</option>
+                    <option value="opel">Opel</option>
+                    <option value="peugeot">Peugeot</option>
+                    <option value="toyota">Toyota</option>
+                    <option value="fiat">Fiat</option>
+                    <option value="citroën">Opel</option>
+                    <option value="mg">MG</option>
+                </select>
 
+                <label for="kilometraje">Kilometraje</label>
+                <select name="kilometraje" id="kilometraje">
+                    <option value="0km">0 km </option>
+                    <option value="1.000 - 30.000 km">1.000-30.000 km</option>
+                    <option value="+30.000km">+30.000km</option>
+                </select>
 
-    </div>
+                <label for="caballos">Caballaje</label>
+                <select id="caballos" name="caballos" size="2" multiple>
+                    <option value="70cv">70 CV</option>
+                    <option value="100cv">100 CV</option>
+                    <option value="150cv">150 CV</option>
+                    <option value="150cv">+150 CV</option>
+                </select>
+    </section>
+    <div style="background-color: brown;height: 5px;"></div>
+
 
     <div style="background-color: rgb(253, 252, 249);height: 2px;"></div>
-    <div style="text-align: center;">
+    <div style="text-align: center;background-color: black;height: 32px;">
         <a href="DONDE ESTAMOS.html">¿Dónde estamos?</a>
         <a href="#">Noticias</a>
         <a href="#">Ofertas</a>
     </div>
-     <div style="background-color: brown;height: 5px;"></div>
+
     <div style="background-color: rgb(253, 252, 249);height: 2px;"></div>
     <div style="background-color: brown;height: 5px;"></div>
-<div>
-    <img src="Fotos/aston-martin.jpg" alt="aston martin" width="700px" height="400px">
-    <img src="Fotos/mercedes1.jpg" alt="aston martin" width="700px" height="400px">
-</div>
+    <div>
+        <img src="Fotos/aston-martin.jpg" alt="aston martin" width="700px" height="400px">
+        <img src="Fotos/mercedes1.jpg" alt="aston martin" width="700px" height="400px">
+    </div>
 
 </body>
 
