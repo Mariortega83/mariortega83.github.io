@@ -27,8 +27,8 @@ Bienvenido a Tomoción, un proyecto web desarrollado por Mario Ortega. Esta pág
 
 **Mario Ortega**
 
-- GitHub: [marioortega](https://github.com/mariortega83)
-- Sitio Web: [www.marioortega.com](https://mariortega83.github.io/)
+- GitHub: (https://github.com/mariortega83)
+- Sitio Web:(https://mariortega83.github.io/)
 
 ## Contribuciones
 
