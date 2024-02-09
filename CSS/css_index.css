@@ -3,15 +3,17 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-image: url(fondo.jpg);
+    background-image: url(https://www.kayak.es/news/wp-content/uploads/sites/2/2023/08/THEME_HOTEL_SIGN_FIVE_STARS_FACADE_BUILDING_GettyImages-1320779330-3-3.jpg);
+    background-size: cover;
+    background-attachment: fixed;
 }
 header{
     display:grid;
     grid-template-columns: 60% 40%;
     padding: 20px;
-    background-color: rgb(163, 84, 84);
-    color: rgb(0, 0, 0);
-    opacity: 0.8;
+    background-color: rgba(168, 167, 167, 0.534);
+    color: rgb(255, 255, 255);
+    width: 100%;
     
 }
 header>div{
@@ -23,6 +25,7 @@ header img{
     width: 100px;
     height: 100px;
     margin: 10px;
+    border-radius: 20px;
 }
 
 nav{
@@ -35,6 +38,11 @@ nav a{
     text-decoration: none;
     color: white;
     font-size: 20px;
+    margin: 10px;
+}
+nav img{
+    width: 50px;
+    height: 50px;
     margin: 10px;
 }
 
