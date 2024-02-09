@@ -1,0 +1,40 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(fondo.jpg);
+}
+header{
+    display:grid;
+    grid-template-columns: 60% 40%;
+    padding: 20px;
+    background-color: rgb(163, 84, 84);
+    color: rgb(0, 0, 0);
+    opacity: 0.8;
+    
+}
+header>div{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+header img{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin: 10px;
+}
+
