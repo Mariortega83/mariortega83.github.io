@@ -1,10 +1,13 @@
 body{
-    background-color: #1E1A1D;
+    
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    background-image: url("Fotos/fotoInicio.jpg");
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
 }
 header {
     
@@ -43,3 +46,100 @@ a{
     text-decoration: none;
     color: white;
 }
+h2{
+    color: #D1963E;
+    font-size: 2em;
+
+
+}
+form{
+    width: 450px;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.589);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    border-radius: 7px;
+    margin-bottom: 20px;
+    border: none;
+}
+input, textarea{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+}
+textarea{
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+}#bottom{
+    background-color: #31384A;
+    color:#fff;
+    padding: 20px;
+}
+#bottom:hover{
+    background-color: #31384ace;
+    color: #fff;
+
+}
+
+#formulario{
+    margin-top: 40px;
+    padding: 30px;
+    text-align: center;
+    
+}
+footer {
+    background-color: #1E1A1D;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    
+}
+footer a {
+    color: white;
+    text-decoration: none;
+}
+footer img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 10px;
+}
+#videos{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+
+}
+
+@media screen and (max-width: 480px) {
+      
+  
+
+        #inicio{
+            flex-direction: column;
+            gap: 20px;
+            text-align: center;
+        }
+    p,h1,h2{
+        text-align: center;
+    }
+        
+        iframe{
+            width:75%;
+    
+            
+        }
+        form{
+            width: 100%;
+        }
+        #videos{
+            flex-direction: column;
+        }
+       
+    }
+
+

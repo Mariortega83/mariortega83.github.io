@@ -13,7 +13,8 @@
     <header id="inicio">
         <div id="logo">
             <img src="Fotos/logo1.png" alt="">
-            <h1>Atlantic Hotel</h1>
+            <a href="../index.html"><h1>Atlantic Hotel</h1></a>
+            
         </div>
         <div>
             <p>
@@ -27,32 +28,65 @@
 
     </header>
 
-
-
-<form action="" method="POST">
+<div id="formulario">
+         
+   
+    <form action="" method="POST">
+        <h2>Reservas</h2>
     <label for="name">Nombre: </label>
     <input type="text" id="name" name="name" required>
 
     <label for="email">Email:</label>
     <input type="email" id="email" name="email" required>
 
-    <label for="check-in">Hora de Llegada:</label>
-    <input type="date" id="check-in" name="check-in" required>
+    <label for="fechaLlegada">Fecha de Llegada:</label>
+    <input type="date" id="fechaLlegada" name="fechaLlegada" required>
 
-    <label for="check-out">Fecha de Salida: </label>
-    <input type="date" id="check-out" name="check-out" required>
+    <label for="fechaSalida">Fecha de Salida: </label>
+    <input type="date" id="fechaSalida" name="fechaSalida" required>
 
-    <label for="room-type">Tipo de habitación: </label>
-    <select id="room-type" name="room-type" required>
-        <option value="Normal">Single</option>
-        <option value="Lujo">Double</option>
-        <option value="Presidencial">Suite</option>
+    <label for="tipo-hab">Tipo de habitación: </label>
+    <select id="tipo-hab" name="tipo-hab" required>
+        <option value="Normal">Normal</option>
+        <option value="Lujo">Lujo</option>
+        <option value="Presidencial">Presidencial</option>
     </select>
 
-    <input type="submit" value="Enviar">
+    <input type="submit" value="Reservar">
 </form>
         
+</div>
 
+<section id="videos">
+    <div>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/1ZRf1B5qnnA?si=3BDBqTUH-FbgwhiQ" title="YouTube video player"
+         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+         allowfullscreen></iframe>
+    </div>
+    <div>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/yRjc0uQm3zw?si=bIvlXmbq0kZmYpJ0" title="YouTube video player" 
+        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+        allowfullscreen></iframe>
+    </div>
+
+</section>
+
+<footer>
+    <div>
+        <p>Atlantic Hotel</p>
+        <p>Av. de la Constitución, 21, 18014 Granada</p>
+        <p>958 80 14 00</p>
+        
+    </div>
+    <div>
+        <a href="https://www.instagram.com/"><img src="Fotos/instagram-removebg-preview.png" alt=""></a>
+        <a href="https://twitter.com/?lang=es"><img src="Fotos/gorjeo-removebg-preview.png" alt=""></a>
+        <a href="https://www.facebook.com/?locale=es_ES"><img src="Fotos/facebook-removebg-preview.png" alt=""></a>
+    </div>
+    
+
+            
+        </footer>
 
 
 
