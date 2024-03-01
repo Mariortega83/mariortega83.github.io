@@ -51,7 +51,7 @@ a:hover {
     display: flex;
     justify-content: space-between;
     align-items:start;
-    flex-wrap: wrap;
+    flex-wrap: wrap;    
     padding: 20px 10%;
     background-color: #658792;
 
@@ -67,4 +67,31 @@ p {
     
     text-align: justify;
     line-height: 1.5em;
+}
+
+/* Media query para dispositivos móviles en posición vertical */
+@media screen and (max-width: 480px) {
+    header {
+        grid-template-columns: 1fr;
+        padding: 10px;
+    }
+
+    header img {
+        width: 60px;
+        height: 60px;
+    }
+
+    #menu {
+        justify-content: center;
+        padding: 10px; 
+    }
+
+    #spa {
+        padding: 10px;
+    
+    }
+    #spa img {
+        width: 100%;
+        height: auto;
+}
 }
