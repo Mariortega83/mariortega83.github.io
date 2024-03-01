@@ -220,7 +220,12 @@ footer img {
 .triangulo{
     width: 20px;
     height: 20px;
-    background-color: #8C705F;
+    background-color: #8c705f00;
+    
+}
+p{
+
+    text-align: center;
 }
 
 /* Media query para dispositivos más pequeños */
