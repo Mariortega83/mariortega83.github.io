@@ -7,10 +7,26 @@ body {
 
 header {
     
-    background-color: #b19797;
+    background-color: #1E1A1D;
     padding: 20px;
     color: white;
+
 }
+
+#inicio{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+div a img{
+    background-color: white;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
 #logo{
     display: flex;
     justify-content: flex-start;
@@ -29,21 +45,21 @@ header {
     flex-wrap: wrap;
     width: 100%;
     gap: 20px;
-    background-color: rgb(245, 190, 107);
+    background-color: rgb(209, 150, 62);
 
 }
 
-a {
+#menu a {
     text-decoration: none;
     color: rgb(255, 255, 255);
     font-size: 20px;
-    font-weight: bold;
+    
     padding: 20px;
     
 }
 
-a:hover {
-    background-color: #6ea167;
+#menu a:hover {
+    background-color: #7F534B;
 }
 h2 {
     text-align: left;
@@ -101,13 +117,21 @@ h2 {
 }
 
 main {
-    background-color: #a1a1a1;
+    background-color: #8C705F;
 
 }
 
 #habitaciones {
     text-align: center;
-    background-color: brown ;
+    background-color: #abb695 ;
+}
+#habitaciones p{
+    text-align: center;
+    
+}
+#habitaciones a {
+    text-decoration: none;
+    color: black    ;
 }
 .hab_container{
     display: flex;
@@ -120,9 +144,10 @@ main {
 
 .tarjeta{
     background-color: whitesmoke;
-    border:2px solid black;
+    border:2px solid rgb(124, 124, 124);
     border-radius: 20px;
-    width: 350px
+    width: 350px;
+    
 
 }
 .tarjeta img {
@@ -132,6 +157,7 @@ main {
     border-radius: 10px;
     margin-top: 15px ;
 }
+
 form{
     width: 450px;
     margin: auto;
@@ -152,16 +178,7 @@ textarea{
     min-height: 100px;
     max-height: 200px;
     max-width: 100%;
-}
-footer {
-    background-color: #b19797;
-    color: white;
-    text-align: center;
-    padding: 20px;
-    
-}
-
-#bottom{
+}#bottom{
     background-color: #31384A;
     color:#fff;
     padding: 20px;
@@ -171,13 +188,47 @@ footer {
     color: #fff;
 
 }
+iframe{
+
+    width: 600px;
+    height: 450px;
+    
+}
+footer {
+    background-color: #b19797;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    
+}
+footer a {
+    color: white;
+    text-decoration: none;
+}
+footer img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+
 
 /* Media query para dispositivos más pequeños */
 @media screen and (max-width: 480px) {
   
 
+    #inicio{
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+p,h1,h2{
+    text-align: center;
+}
     #menu {
-        justify-content: center;
+        display: column;
+        justify-content: left;
         
     }
 
@@ -193,10 +244,11 @@ footer {
         grid-column-start: span 2;
     }
     iframe{
-        width: 75%;
-        height: 75%;
+        width:75%;
+        
     }
     form{
         width: 100%;
     }
+   
 }
