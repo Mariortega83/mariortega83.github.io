@@ -15,12 +15,6 @@
             <img src="Fotos/Fotos.Inicio/logo1.png" alt="LogoHotel">
             <h1>Atlantic Hotel</h1>
         </div>
-
-        <div>
-
-
-        </div>
-
     </header>
 
     <nav id="menu">
@@ -39,59 +33,105 @@
                     Nuestros servicios
                 </h2>
             </div>
-                <div id="servicios_1">
-                        <h2>
-                            Bienvenido a Atlantic Hotel <br>
-                            Un lugar para descansar y disfrutar
-                        </h2>
-                        
-                        <p>
-                            En Atlantic Hotel, nos esforzamos por brindarle una experiencia única y relajante. <br>
-                            Nuestro hotel ofrece una variedad de servicios para que su estadía sea lo más cómoda <br>
-                            posible. Disponemos de spa, piscina, restaurante, bar, gimnasio y mucho más. Todos estos
-                            <br>
-                            servicios están diseñados para que usted pueda disfrutar de su tiempo en nuestro hotel.
-                        </p>
+            <div id="servicios_1">
+                <h2>
+                    Bienvenido a Atlantic Hotel <br>
+                    Un lugar para descansar y disfrutar
+                </h2>
 
+                <p>
+                    En Atlantic Hotel, nos esforzamos por brindarle una experiencia única y relajante. <br>
+                    Nuestro hotel ofrece una variedad de servicios para que su estadía sea lo más cómoda <br>
+                    posible. Disponemos de spa, piscina, restaurante, bar, gimnasio y mucho más. Todos estos
+                    <br>
+                    servicios están diseñados para que usted pueda disfrutar de su tiempo en nuestro hotel.
+                </p>
+
+            </div>
+
+
+            <div class="gallery-container">
+                <div class="gallery-item">
+                    <img src="Fotos/spa.jpg" alt="spa" class="gallery-img">
+                </div>
+                <div class="gallery-item">
+                    <img src="Fotos/bar.jpg" alt="" class="gallery-img">
+                </div>
+                <div class="gallery-item">
+                    <img src="Fotos/gimnasio.jpg" alt="" class="gallery-img">
+                </div>
+                <div class="gallery-item">
+                    <img src="Fotos/piscina.jpg" alt="" class="gallery-img">
+                </div>
+                <div class="gallery-item">
+                    <img src="Fotos/restaurante.jpg" alt="" class="gallery-img">
+                </div>
+                <div class="gallery-item">
+                    <img src="Fotos/recreativos.jpg" alt="" class="gallery-img">
                 </div>
 
-
-                <div class="gallery-container">
-                    <div class="gallery-item">
-                        <img src="Fotos/spa.jpg" alt="spa" class="gallery-img">
-                    </div>
-                    <div class="gallery-item">
-                        <img src="Fotos/bar.jpg" alt="" class="gallery-img">
-                    </div>
-                    <div class="gallery-item">
-                        <img src="Fotos/gimnasio.jpg" alt="" class="gallery-img">
-                    </div>
-                    <div class="gallery-item">
-                        <img src="Fotos/piscina.jpg" alt="" class="gallery-img">
-                    </div>
-                    <div class="gallery-item">
-                        <img src="Fotos/restaurante.jpg" alt="" class="gallery-img">
-                    </div>
-                    <div class="gallery-item">
-                        <img src="Fotos/recreativos.jpg" alt="" class="gallery-img">
-                    </div>
-
-                </div>
+            </div>
 
         </section>
         <section id="habitaciones">
-            <div id="hab_pres">
+            <h2>
+                Habitaciones
+            </h2>
+            <p>
+                En Atlantic Hotel, disponemos de una variedad de habitaciones para que usted pueda elegir la que
+                mejor se adapte a sus necesidades. <br>
+                Todas nuestras habitaciones están diseñadas para que usted pueda disfrutar de su tiempo en nuestro
+                hotel. <br>
+                Disponemos de habitaciones presidenciales, habitaciones normales y habitaciones de lujo.
+            </p>
             </div>
-
-            <div id="hab_nor"></div>
-            <div id="hab_luj"></div>
-
+            <div class="hab_container">
+                <div class="tarjeta">
+                    <img src="Fotos/presidencial.jpg" alt="" width="100px" height="100px">
+                    <h3>Habitación presidencial</h3>
+                    <p style="border-bottom: 2px solid black;" >Disfrute de una habitación presidencial con todas las comodidades que usted necesita para
+                        disfrutar de su tiempo en nuestro hotel.</p>
+                </div>
+                <div class="tarjeta">
+                    <img src="Fotos/normal.jpg" alt="" width="100px" height="100px">
+                    <h3>Habitación normal</h3>
+                    <p style="border-bottom: 2px solid black;">Disfrute de una habitación normal con todas las comodidades que usted necesita para disfrutar
+                        de su tiempo en nuestro hotel.</p>
+                </div>
+                <div class="tarjeta">
+                    <img src="Fotos/lujo.jpg" alt="" width="100px" height="100px">
+                    <h3>Habitación de lujo</h3>
+                    <p style="border-bottom: 2px solid black;">Disfrute de una habitación de lujo con todas las comodidades que usted necesita para disfrutar
+                        de su tiempo en nuestro hotel.</p>
+                </div>
+            </div>
         </section>
         <section id="reservas">
 
         </section>
         <section id="contacto">
+            <div>
+                <h2>
+                    Para ponerse en contacto con nosotros, llamenós o rellene el siguiente formulario
 
+                </h2>
+                <form action="#" method="POST">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" required></textarea>
+
+                    <input type="submit" value="Enviar">
+                </form>
+            </div>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3179.1013339107026!2d-3.5918338453178507!3d37.174062708521994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd71fcb731d64b03%3A0x8a21c2cc6f774398!2sHotel%20Alhambra%20Palace!5e0!3m2!1ses!2ses!4v1709294194852!5m2!1ses!2ses"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
         </section>
     </main>
 
