@@ -148,7 +148,7 @@ footer img {
     }
 
     iframe {
-        width: 40%;
+        width: 100%;
 
 
     }
@@ -159,6 +159,7 @@ footer img {
 
     #videos {
         flex-direction: column;
+        
     }
 
 }
