@@ -241,8 +241,8 @@ p,h1,h2{
     text-align: center;
 }
     #menu {
-        display: column;
-        justify-content: left;
+        flex-direction: column;
+        justify-content:center;
         
     }
 
